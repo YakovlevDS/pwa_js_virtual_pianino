@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    text-align: center;
+    font-size: 50px;
+    margin: 10%;
+}
+
+.white-keys kbd {
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+    background-color: white;
+    border: solid 2px mediumblue;
+    margin-left: -15px;
+    line-height: 450px;
+}
+
+.black-keys kbd {
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    position: relative;
+    top: -305px;
+    width: 60px;
+    height: 150px;
+    line-height: 200px;
+    border: solid 2px turquoise;
+    background-color: black;
+    color: white;
+}
+
+#w {
+    right: 115px;
+}
+
+#e {
+    right: 85px;
+}
+
+#t {
+    left: 45px;
+}
+
+#y {
+    left: 75px;
+}
+
+#u {
+    left: 105px;
+}
